@@ -14,8 +14,9 @@ public class login_Page {
 	public static void main(String[] args) throws Exception {
 
 		// 1. Chrome setup
-		
-		System.out.println("gitstuff new added");
+		System.out.println("conflict resolved");
+		System.out.println("new branch");
+		System.out.println(" gitdemo");
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\amrit\\eclipse\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
