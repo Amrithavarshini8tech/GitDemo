@@ -14,6 +14,7 @@ public class login_Page {
 	public static void main(String[] args) throws Exception {
 
 		// 1. Chrome setup
+		System.out.println("Gitstuff");
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\amrit\\eclipse\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
